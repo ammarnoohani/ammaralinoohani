@@ -53,7 +53,7 @@
 <body>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg" data-aos="fade-down" data-aos-duration="500">
-    <div class="container">
+    <div class="container ">
       <a class="navbar-brand" href="#">
         <svg width="42" height="42" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="10" y="10" width="80" height="80" stroke="#64ffda" stroke-width="10" />
@@ -203,7 +203,7 @@
           </div>
           <div class="col-lg-9">
             <div class="experience-content">
-              <div id="techcorp" class="experience-detail active" data-aos="slide-left" data-aos-duration="1100">
+              <div id="techcorp" class="experience-detail active" data-aos="fade-up" data-aos-duration="1100">
                 <h3 class="experience-title">Full Stack Developer</h3>
                 <span class="experience-company">@ Sorvox Groups</span>
                 <p class="experience-date">Feb 2024 - Present</p>
@@ -215,7 +215,7 @@
 
                 </ul>
               </div>
-              <div id="startup" class="experience-detail" data-aos="slide-right" data-aos-duration="1200">
+              <div id="startup" class="experience-detail" data-aos="fade-up" data-aos-duration="1200">
                 <h3 class="experience-title">Penetration Tester</h3>
                 <span class="experience-company">@ Apprise System</span>
                 <p class="experience-date">Aug 2023 - Dec 2023</p>
@@ -227,7 +227,7 @@
 
                 </ul>
               </div>
-              <div id="freelance" class="experience-detail" data-aos="slide-left" data-aos-duration="1300">
+              <div id="freelance" class="experience-detail" data-aos="fade-up" data-aos-duration="1300">
                 <h3 class="experience-title">Freelance Database Manager</h3>
                 <span class="experience-company">@ Fiverr</span>
                 <p class="experience-date">2020 - 2021</p>
@@ -252,7 +252,7 @@
           <div class="col-lg-6">
             <div class="project-card h-100">
               <div class="project-image">
-                <img src="./images/project-1.png" alt="Project 1" data-aos="slide-left" data-aos-duration="500">
+                <img src="./images/project-1.png" alt="Project 1" data-aos="fade-up" data-aos-duration="500">
               </div>
               <div class="project-content">
                 <p class="project-overline">Featured Project</p>
@@ -273,7 +273,7 @@
           <div class="col-lg-6">
             <div class="project-card h-100">
               <div class="project-image">
-                <img src="./images/project2-1.png" alt="Project 2" id="project2" data-aos="slide-left"
+                <img src="./images/project2-1.png" alt="Project 2" id="project2" data-aos="fade-up"
                   data-aos-duration="500">
               </div>
               <div class="project-content">
@@ -441,8 +441,8 @@
     const imageElement = document.querySelector('#project2');
 
     function changeImage() {
-      // Add the slide-left class to start the sliding transition
-      imageElement.classList.add('slide-left');
+      // Add the fade-up class to start the sliding transition
+      imageElement.classList.add('fade-up');
 
       setTimeout(() => {
         // Update the image source
@@ -450,7 +450,7 @@
         imageElement.src = P2images[currentImageIndex];
 
         // Reset the image position for the new image
-        imageElement.classList.remove('slide-left');
+        imageElement.classList.remove('fade-up');
       }, 1000); // Wait for the slide transition to complete before changing the image
     }
 

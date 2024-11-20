@@ -574,6 +574,9 @@
             max-width: 200px;
             padding-bottom: 2rem;
         }
+        .resume-box {
+            scale: 0.7;
+        }
 
         .numbered-heading::after {
             width: 100px;
