@@ -137,7 +137,7 @@
     }
 
     .hero-subtitle {
-        font-size: clamp(40px, 8vw, 80px);
+        font-size: clamp(50px, 8vw, 100px);
         line-height: 1.1;
         color: var(--text-secondary);
         margin: 0;
@@ -625,7 +625,7 @@
         }
 
         .hero-subtitle {
-            font-size: 1.2rem;
+            font-size: clamp(30px, 8vw, 70px);
         }
 
         .btn {
