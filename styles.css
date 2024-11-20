@@ -582,6 +582,9 @@
             width: 100px;
         }
 
+        .resume-container:hover .resume-popup {
+            visibility: hidden;
+        }
         .side-element {
             display: none;
         }
